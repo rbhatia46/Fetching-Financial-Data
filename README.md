@@ -10,6 +10,9 @@ Seperate notebook for each different library has been included -
 
 Get Your API Key here - https://www.alphavantage.co/support/#api-key
 
+4. financial-data-webscraping - To scrape financial data such as Balance sheets, income statements and cashflow statements for fundamental analysis using BeautifulSoup.
+
+
 ### Why am I demonstrating multiple libraries ?
 
 We never know which one goes out of support, at what time. For example, pandas datareader used to be the most popular choice once, but it stopped supporting Yahoo finance API, therefore, it became outdated.
