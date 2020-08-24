@@ -11,6 +11,9 @@ Seperate notebook for each different library has been included -
 Get Your API Key here - https://www.alphavantage.co/support/#api-key
 
 4. financial-data-webscraping - To scrape financial data such as Balance sheets, income statements and cashflow statements for fundamental analysis using BeautifulSoup.
+5. [FundamentalAnalysis](https://github.com/JerBouma/FundamentalAnalysis) - Amazing library, does all the heavy-lifting for you, and does all the magic behind the scenes, to get you the data in a clean format, however this can be used only for a handful of stock exchanges(shown in notebook), if you are looking at stocks in the US, you just have the perfect tool for the task. This also required an API key, and remember that you can make only 250 Calls per API key, so you either need to upgrade or get multiple API keys. Amazing package, shout out to Jeroen Bouma.
+
+Get your API Key here - https://financialmodelingprep.com/developer/docs/
 
 
 ### Why am I demonstrating multiple libraries ?
@@ -19,4 +22,6 @@ We never know which one goes out of support, at what time. For example, pandas d
 
 ### My Recommendation
 
-I personally prefer yfinance, because it has an easy-to-use API and very convenient most of the times.
+* I personally prefer yfinance for technical analysis, because it has an easy-to-use API and very convenient most of the times.
+
+* For Fundamental analysis, FundamentalAnalysis package is the best, as it requires no data cleaning and can be used directly to get detailed financial statements of a company, however it has coverage limitations and doesn't cover a lot many stock exchanges, so you can choose between Web Scraping and FundamentalAnalysis package as per your requirement.
